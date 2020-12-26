@@ -46,17 +46,6 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-class BookDetailsPage extends Page {
-  Route createRoute(BuildContext context) {
-    return MaterialPageRoute(
-      settings: this,
-      builder: (BuildContext context) {
-        return SecondScreen();
-      },
-    );
-  }
-}
-
 class FirstScreen extends StatelessWidget {
   final Function onTapButton;
   FirstScreen({
